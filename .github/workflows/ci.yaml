@@ -17,19 +17,19 @@ jobs:
             ref: t1.jar
 
           - source: task2.kt
-            ref: t1.jar
+            ref: t2.jar
 
           - source: task3.kt
-            ref: t1.jar
+            ref: t3.jar
 
           - source: task4.kt
-            ref: t1.jar
+            ref: t4.jar
 
           - source: task5.kt
-            ref: t1.jar
+            ref: t5.jar
 
           - source: task6.kt
-            ref: t1.jar
+            ref: t6.jar
 
     steps:
       - name: Checkout code
